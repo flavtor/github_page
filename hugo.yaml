@@ -33,13 +33,13 @@ params:
 
   ShowReadingTime: true
   ShowShareButtons: true
-  ShowarticleNavLinks: true
+  ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
   ShowWordCount: true
   ShowRssButtonInSectionTermList: false
   UseHugoToc: true
-  disableSpecial1starticle: false
+  disableSpecial1stPost: false
   disableScrollToTop: false
   comments: false
   hidemeta: false
@@ -72,9 +72,9 @@ params:
     imageTitle: my image
     buttons:
       - name: Articles
-        url: Articles
-      - name: Categories
-        url: Categories
+        url: posts
+      - name: Libellés
+        url: tags
 
   # home-info mode
   homeInfoParams:
@@ -98,7 +98,7 @@ params:
     hiddenInList: false # hide on list pages and home
     hiddenInSingle: false # hide on single page
 
-  # editarticle:
+  # editPost:
   #   URL: "https://github.com/<path_to_repo>/content"
   #   Text: "Suggest Changes" # edit text
   #   appendFilePath: true # to append file path to Edit link
@@ -115,18 +115,19 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: categories
+   - identifier: categories
       name: Categories
       url: /categories/
       weight: 10
-    - identifier: Articles
-      name: Articles
-      url: /articles/
+    - identifier: tags
+      name: Libellés
+      url: /tags/
       weight: 20
-    - identifier: Recherche
+    - identifier: search
       name: Recherche
-      url: /recherche/
+      url: /search/
       weight: 30
+
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
