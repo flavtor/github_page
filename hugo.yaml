@@ -66,7 +66,7 @@ params:
     enabled: true # needs to be explicitly set
     title: Blog de Flavtor
     subtitle: "J'écris sur les choses que j'apprends et sur les choses que je fais."
-    imageUrl: "images/manga-removebg.png"
+    imageUrl: "images/luffy.png"
     imageWidth: 240
     imageHeight: 240
     imageTitle: my image

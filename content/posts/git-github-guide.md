@@ -1,6 +1,6 @@
 ---
-title: "Understanding and Using Git and GitHub"
-date: 2023-11-23
+title: "Comprendre Git & Github
+date: 2023-12-04
 categories: ["Version Control", "Coding Tools"]
 tags: ["Git", "GitHub", "Tutorial"]
 author: "flavtor"

@@ -1,6 +1,6 @@
 ---
 title: "Débutez Hugo"
-date: 2023-11-25
+date: 2023-12-04
 categories: ["Coding", "Coding Tools"]
 tags: ["Web", "Frontend", "Tutorial"]
 author: "flavtor"
@@ -103,7 +103,7 @@ Cela créera un nouveau fichier Markdown pour votre premier article dans le rép
 ```
 ---
 title: "Mon premier article"
-date: 2023-11-25
+date: 2023-12-04
 draft: true
 ---
 ```
