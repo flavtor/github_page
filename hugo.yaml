@@ -64,8 +64,8 @@ params:
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
-    title: flavtor's Journey
-    subtitle: "I write about my experiences and learnings."
+    title: flavtor Blog
+    subtitle: "J'écris sur les choses que j'apprends et sur les choses que je fais."
     imageUrl: "images/manga-removebg.png"
     imageWidth: 240
     imageHeight: 240
@@ -78,8 +78,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Title: "Salut toi \U0001F44B"
+    Content: Bienvenue sur mon blog
 
   socialIcons:
     - name: github
