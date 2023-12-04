@@ -1,6 +1,6 @@
 baseURL: ""
 languageCode: en-us
-title: Flavien Thel's Blog
+title: Hakan's Blog
 paginate: 5
 theme: PaperMod
 
@@ -21,10 +21,10 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Flavien Thel's Blog
+  title: Hakan's Blog
   description: "A blog where I write about my experiences and learnings."
   keywords: [Blog, Portfolio]
-  author: Flavien Thel Arik
+  author: Hakan Arik
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "2 January 2006"
@@ -64,9 +64,9 @@ params:
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
-    title: Flavien Thel's Journey
+    title: Hakan's Journey
     subtitle: "I write about my experiences and learnings."
-    imageUrl: "images/manga.png"
+    imageUrl: "images/manga-removebg.png"
     imageWidth: 240
     imageHeight: 240
     imageTitle: my image
@@ -83,7 +83,7 @@ params:
 
   socialIcons:
     - name: github
-      url: "https://github.com/flavtor"
+      url: "https://github.com/agahakan"
 
   # analytics:
   #   google:

@@ -5,14 +5,14 @@ date: 2023-11-14T10:45:37+01:00
 # aliases: ["/first"]
 categories: ["Software Development"]
 tags: ["Beginner", "Learning", "Programming"]
-author: "Flavien Thel"
+author: "Hakan"
 showToc: true
 TocOpen: false
 draft: false
 hidemeta: false
 comments: false
 description: "Join me on my journey through the world of software development."
-canonicalURL: "https://flavtor.github.io/hugo-blog/posts/my-first-post"
+canonicalURL: "https://agahakan.github.io/hugo-blog/posts/my-first-post"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
@@ -28,7 +28,7 @@ UseHugoToc: true
 
 ## Introduction
 
-Welcome to my very first blog post! I'm Flavien Thel, and this is where I'll be documenting my journey as I dive into the vast ocean of software development.
+Welcome to my very first blog post! I'm Hakan, and this is where I'll be documenting my journey as I dive into the vast ocean of software development.
 
 ## Why Software Development?
 
@@ -46,6 +46,8 @@ I'm excited about this journey and even more excited to share it with you. Let's
 
 _Stay tuned for more updates, and thanks for reading!_
 
-[My Github](https://twitter.com/flavtor)
+[My Github](https://twitter.com/hakan) | [Connect on LinkedIn](https://www.linkedin.com/in/arik-hakan/)
 
 ---
+
+> _"The only way to do great work is to love what you do."_ — Steve Jobs
