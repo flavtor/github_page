@@ -10,7 +10,7 @@ draft: false
 hidemeta: false
 comments: false
 description: "Make your first website with Hugo!"
-canonicalURL: "https://agahakan.github.io/hugo-blog/posts/hugo-get-started"
+canonicalURL: "https://flavtor.github.io/hugo-blog/posts/hugo-get-started"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false

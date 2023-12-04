@@ -10,7 +10,7 @@ draft: false
 hidemeta: false
 comments: false
 description: "A beginner's guide to understanding and using Git and GitHub."
-canonicalURL: "https://agahakan.github.io/hugo-blog/posts/git-github-guide"
+canonicalURL: "https://flavtor.github.io/hugo-blog/posts/git-github-guide"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false

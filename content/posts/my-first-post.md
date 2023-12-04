@@ -12,7 +12,7 @@ draft: false
 hidemeta: false
 comments: false
 description: "Join me on my journey through the world of software development."
-canonicalURL: "https://agahakan.github.io/hugo-blog/posts/my-first-post"
+canonicalURL: "https://flavtor.github.io/hugo-blog/posts/my-first-post"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
