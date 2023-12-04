@@ -1,4 +1,0 @@
-baseURL = 'https://flavtor.github.io/github_page/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'ananke'
