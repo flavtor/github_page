@@ -3,7 +3,7 @@ title: "Hugo Get Started"
 date: 2023-11-25
 categories: ["Coding", "Coding Tools"]
 tags: ["Web", "Frontend", "Tutorial"]
-author: "Hakan"
+author: "flavtor"
 showToc: true
 TocOpen: false
 draft: false
@@ -30,149 +30,120 @@ cover:
   hidden: true # only hide on current single page
 ---
 
-# Hugo Get Started: Creating Your First Website
+Bien sûr, voici la version traduite en français que tu pourrais copier-coller :
 
-In this tutorial, we'll guide you through the process of setting up Hugo and creating your first website.
+---
 
-Whether you're a seasoned developer or just getting started with web development, Hugo is a fantastic choice for building fast and efficient websites.
+# Démarrer avec Hugo : Créer votre premier site web
 
-## What is Hugo?
+Dans ce tutoriel, nous allons vous guider à travers le processus de configuration de Hugo et la création de votre premier site web.
 
-[Hugo](https://gohugo.io/) is an open-source static site generator that allows you to create websites with lightning-fast performance. It's written in Go, a high-performance compiled programming language often used for developing web applications, among other things.
+Que vous soyez un développeur expérimenté ou que vous débutiez tout juste en développement web, Hugo est un excellent choix pour créer des sites web rapides et efficaces.
 
-Unlike dynamic content management systems (CMS), Hugo generates your entire website as static files, making it highly efficient and secure.
+## Qu'est-ce que Hugo ?
 
-> _"Simplicity is the ultimate sophistication."_ — Leonardo da Vinci
+[Hugo](https://gohugo.io/) est un générateur de site statique open-source qui vous permet de créer des sites web avec des performances ultra-rapides. Il est écrit en Go, un langage de programmation compilé à haute performance souvent utilisé pour développer des applications web, entre autres.
 
-## Prerequisites
+Contrairement aux systèmes de gestion de contenu dynamique (CMS), Hugo génère l'intégralité de votre site web sous forme de fichiers statiques, le rendant hautement efficace et sécurisé.
 
-1. **Install Hugo**: Make sure you have Hugo installed on your computer. If you haven't installed it yet, you can follow the installation instructions on the [official Hugo website](https://gohugo.io/getting-started/installing/).
+> _"La simplicité est la sophistication suprême."_ — Léonard de Vinci
 
-2. **Basic Knowledge of Markdown**: Hugo uses Markdown for content creation. If you're not familiar with Markdown, don't worry; it's easy to learn and is a lightweight markup language for formatting text.
+## Prérequis
 
-3. **Text Editor**: You'll need a text editor to create and edit your Hugo website's content files. Popular choices include Visual Studio Code, Sublime Text, or any text editor you prefer.
+1. **Installer Hugo** : Assurez-vous d'avoir Hugo installé sur votre ordinateur. Si vous ne l'avez pas encore installé, vous pouvez suivre les instructions d'installation sur le [site officiel de Hugo](https://gohugo.io/getting-started/installing/).
 
-## Setting Up Your Hugo Project
+2. **Connaissance de base de Markdown** : Hugo utilise Markdown pour la création de contenu. Si vous n'êtes pas familier avec Markdown, ne vous inquiétez pas ; c'est facile à apprendre et c'est un langage de balisage léger pour formater du texte.
 
-Let's start by creating your first Hugo website:
+3. **Éditeur de texte** : Vous aurez besoin d'un éditeur de texte pour créer et modifier les fichiers de contenu de votre site Hugo. Des choix populaires incluent Visual Studio Code, Sublime Text, ou tout éditeur de texte que vous préférez.
 
-**Create a New Hugo Site**:
+## Configuration de votre projet Hugo
 
-Open your terminal and run the following command to create a new Hugo site:
+Commençons par la création de votre premier site Hugo :
+
+**Créer un nouveau site Hugo** :
 
 ```bash
-hugo new site my-hugo-site
+hugo new site mon-site-hugo
 ```
 
-Replace my-hugo-site with your preferred project name.
+Remplacez `mon-site-hugo` par le nom de projet que vous préférez.
 
-**Navigate to Your Project Folder**:
-
-Change your working directory to the newly created project folder:
+**Accéder au dossier de votre projet** :
 
 ```bash
-cd my-hugo-site
-```
-
-Initialize an empty Git repository in the current directory.
-
-```bash
+cd mon-site-hugo
 git init
 ```
 
-**Choose a Hugo Theme**:
-
-Hugo offers a variety of themes to choose from. You can find them on the [Hugo Themes website](https://themes.gohugo.io/). Once you've selected a theme, you can add it to your project using Git or download it manually.
-
-For example, if you want to add the same theme as my blog (yes this blog was with Hugo!), you can use Git like this:
+**Choisir un thème Hugo** :
 
 ```bash
 git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
-```
-
-**Configure Your Hugo Site**:
-
-Hugo's configuration is defined in a file named hugo.toml.
-
-You need to append a line to that file to indicate the current theme.
-
-```bash
 echo "theme = 'ananke'" >> hugo.toml
 ```
 
-Feel free to edit the hugo.toml file to customize your website's settings, including the theme, title, and other options.
-
-**Start Hugo’s development server to view the site**:
+**Démarrer le serveur de développement de Hugo pour visualiser le site** :
 
 ```bash
 hugo server
 ```
 
-Visit [http://localhost:1313/](http://localhost:1313/) in your web browser to see your website in action.
+Rendez-vous sur [http://localhost:1313/](http://localhost:1313/) dans votre navigateur web pour voir votre site en action.
 
-Press Ctrl + C to stop Hugo’s development server.
+Maintenant, vous êtes prêt, vous avez un site web tout comme le thème que vous avez choisi ! Il vous reste à remplir le site avec du contenu !
 
-Now you are all set up, you have a website just like the theme you choosed!
-It is now your job to just populate the site with content!
+## Ajout de contenu
 
-## Adding Content
+Créons votre première page :
 
-Now that you've set up your Hugo project, let's create your first page:
-
-**Create a New Content Page**:
-
-Run the following command to create a new content page (in Markdown format):
+**Créer une nouvelle page de contenu** :
 
 ```bash
-hugo new content posts/my-first-post.md
+hugo new content posts/mon-premier-article.md
 ```
 
-This will create a new Markdown file for your first post in the "content/posts" directory.
+Cela créera un nouveau fichier Markdown pour votre premier article dans le répertoire "content/posts".
 
 ```
 ---
-title: "My First Post"
+title: "Mon premier article"
 date: 2023-11-25
 draft: true
 ---
 ```
 
-As you can see draft is set to true, so you won't see it on your website as it is still a draft. You can set it to false to see the new content on your site, or you can start your server like so:
-
 ```bash
 hugo server -D
 ```
 
--D or --buildDrafts are optional flags you can include with the hugo server command. When you include the -D flag, Hugo will build and display draft content on the local server.
+Vous pouvez maintenant commencer à écrire votre contenu en [Markdown](https://commonmark.org/help/).
 
-You can now start writing your content in [Markdown](https://commonmark.org/help/). You can use Markdown features like headings, lists, links, and more to format your content.
+## Comprendre la structure de répertoires de Hugo
+- Front Matter : Métadonnées en haut de chaque fichier de contenu (YAML, TOML, JSON). Réglez `draft: false` pour publier.
+- Dossier Statique : Stockez les fichiers statiques tels que les images ou les CSS.
+- Dossier Modèles : Contient les modèles pour l'apparence des pages.
+- Dossier Thèmes : Stockez et personnalisez les thèmes.
+- Dossier Données : Contient les fichiers de données de configuration.
+- Dossier Archétypes : Modèles pour un nouveau contenu avec des métadonnées par défaut.
+- Dossier Ressources : Stocke les fichiers de ressources transformées comme les CSS post-traités.
+- Fichier de Configuration : Le fichier de configuration principal (hugo.toml/hugo.yaml/hugo.json) définit les paramètres du site.
 
-## Understanding Hugo's Directory Structure
-- Front Matter: Metadata at the top of each content file (YAML, TOML, JSON). Set draft: false to publish.
-- Static Folder: Store static files like images or CSS.
-- Layouts Folder: Contains templates for page appearance.
-- Themes Folder: Store and customize themes.
-- Data Folder: Holds configuration data files.
-- Archetypes Folder: Templates for new content with default Front Matter.
-- Resources Folder: Stores transformed resource files like post-processed CSS.
-- Config File: The main configuration file (hugo.toml/hugo.yaml/hugo.json) sets site-wide parameters.
+## Générer votre site
 
-## Build Your Site
-
-Once you're satisfied with your content, you can build your site by running:
-
-```
+```bash
 hugo
 ```
 
-This command generates the static files in the "public" directory. The files includes HTML, and assets such as images, CSS files, and JavaScript files.
+Cette commande génère les fichiers statiques dans le répertoire "public".
 
-## Deploying Your Website
+## Déploiement de votre site
 
-With your site built, you're ready to deploy it to a web hosting service or a content delivery network (CDN). You can simply upload the contents of the "public" directory to your hosting provider.
+Avec votre site généré, vous êtes prêt à le déployer sur un service d'hébergement web ou un réseau de diffusion de contenu (CDN). Vous pouvez simplement télécharger le contenu du répertoire "public" sur votre fournisseur d'hébergement.
 
-Congratulations! You've successfully set up Hugo and created your first website. Explore Hugo's documentation and themes to further customize and enhance your site. Happy building!
+Félicitations ! Vous avez réussi à configurer Hugo et à créer votre premier site web. Explorez la documentation et les thèmes de Hugo pour personnaliser et améliorer davantage votre site. Bonne construction !
 
 ---
 
-> _"The journey of a thousand miles begins with a single step."_ — Lao Tzu
+Cela devrait être prêt à être copié-collé pour votre usage !
+
+---

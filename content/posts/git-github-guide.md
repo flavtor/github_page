@@ -3,7 +3,7 @@ title: "Understanding and Using Git and GitHub"
 date: 2023-11-23
 categories: ["Version Control", "Coding Tools"]
 tags: ["Git", "GitHub", "Tutorial"]
-author: "Hakan"
+author: "flavtor"
 showToc: true
 TocOpen: false
 draft: false

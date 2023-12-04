@@ -1,6 +1,6 @@
 baseURL: ""
 languageCode: en-us
-title: Hakan's Blog
+title: flavtor's Blog
 paginate: 5
 theme: PaperMod
 
@@ -21,10 +21,10 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Hakan's Blog
+  title: flavtor's Blog
   description: "A blog where I write about my experiences and learnings."
   keywords: [Blog, Portfolio]
-  author: Hakan Arik
+  author: flavtor Arik
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "2 January 2006"
@@ -64,7 +64,7 @@ params:
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
-    title: Hakan's Journey
+    title: flavtor's Journey
     subtitle: "I write about my experiences and learnings."
     imageUrl: "images/manga-removebg.png"
     imageWidth: 240

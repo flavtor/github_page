@@ -5,7 +5,7 @@ date: 2023-11-14T10:45:37+01:00
 # aliases: ["/first"]
 categories: ["Software Development"]
 tags: ["Beginner", "Learning", "Programming"]
-author: "Hakan"
+author: "flavtor"
 showToc: true
 TocOpen: false
 draft: false
@@ -25,29 +25,33 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 ---
-
-## Introduction
-
-Welcome to my very first blog post! I'm Hakan, and this is where I'll be documenting my journey as I dive into the vast ocean of software development.
-
-## Why Software Development?
-
-I've always been fascinated by technology and its potential to solve real-world problems. Software development, in particular, stands out to me as a field where creativity meets functionality.
-
-## What You Can Expect
-
-- **Weekly Updates**: I'll share what I've learned, what I struggled with, and my small victories.
-- **Resource Sharing**: Useful tutorials, articles, and tools that I find helpful.
-- **Community Interaction**: I look forward to learning from and contributing to the software development community.
-
-## Conclusion
-
-I'm excited about this journey and even more excited to share it with you. Let's learn and grow together!
-
-_Stay tuned for more updates, and thanks for reading!_
-
-[My Github](https://twitter.com/hakan) | [Connect on LinkedIn](https://www.linkedin.com/in/arik-hakan/)
+Bien sûr, voici une traduction en français :
 
 ---
 
-> _"The only way to do great work is to love what you do."_ — Steve Jobs
+## Introduction
+
+Bienvenue dans mon tout premier article de blog ! Je suis flavtor, et c'est ici que je vais documenter mon parcours alors que je plonge dans l'immense océan du développement logiciel.
+
+## Pourquoi le Développement Logiciel ?
+
+J'ai toujours été fasciné par la technologie et son potentiel pour résoudre des problèmes du monde réel. Le développement logiciel, en particulier, se distingue pour moi comme un domaine où la créativité rencontre la fonctionnalité.
+
+## À quoi vous attendre
+
+- **Mises à jour Hebdomadaires** : Je partagerai ce que j'ai appris, mes difficultés et mes petites victoires.
+- **Partage de Ressources** : Des tutoriels utiles, des articles et des outils que je trouve bénéfiques.
+- **Interaction avec la Communauté** : J'ai hâte d'apprendre et de contribuer à la communauté du développement logiciel.
+
+## Conclusion
+
+Je suis enthousiaste à l'idée de ce voyage et encore plus enthousiaste à l'idée de le partager avec vous. Apprenons et grandissons ensemble !
+
+_Reste branché pour plus de mises à jour, et merci de lire !_
+
+--- 
+
+C'est prêt à être utilisé !
+[My Github](https://twitter.com/flavtor) | [Connect on LinkedIn](https://www.linkedin.com/in/flavien-thel/)
+
+---
