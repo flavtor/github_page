@@ -57,14 +57,14 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "Home"
+    text: "Acceuil"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
-    title: flavtor Blog
+    title: Blog de Flavtor
     subtitle: "J'écris sur les choses que j'apprends et sur les choses que je fais."
     imageUrl: "images/manga-removebg.png"
     imageWidth: 240
