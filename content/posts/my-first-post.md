@@ -25,9 +25,6 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 ---
-Bien sûr, voici une traduction en français :
-
----
 
 ## Introduction
 

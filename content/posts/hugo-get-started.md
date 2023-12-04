@@ -139,7 +139,3 @@ Avec votre site généré, vous êtes prêt à le déployer sur un service d'hé
 Félicitations ! Vous avez réussi à configurer Hugo et à créer votre premier site web. Explorez la documentation et les thèmes de Hugo pour personnaliser et améliorer davantage votre site. Bonne construction !
 
 ---
-
-Cela devrait être prêt à être copié-collé pour votre usage !
-
----
