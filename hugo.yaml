@@ -71,9 +71,9 @@ params:
     imageHeight: 240
     imageTitle: my image
     buttons:
-      - name: Articles
+      - name: Posts
         url: posts
-      - name: Libellés
+      - name: Tags
         url: tags
 
   # home-info mode
@@ -115,19 +115,18 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-   - identifier: categories
+    - identifier: categories
       name: Categories
       url: /categories/
       weight: 10
     - identifier: tags
-      name: Libellés
+      name: Tags
       url: /tags/
       weight: 20
     - identifier: search
-      name: Recherche
+      name: Search
       url: /search/
       weight: 30
-
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
