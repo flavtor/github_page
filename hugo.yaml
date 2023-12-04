@@ -33,13 +33,13 @@ params:
 
   ShowReadingTime: true
   ShowShareButtons: true
-  ShowPostNavLinks: true
+  ShowarticleNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
   ShowWordCount: true
   ShowRssButtonInSectionTermList: false
   UseHugoToc: true
-  disableSpecial1stPost: false
+  disableSpecial1starticle: false
   disableScrollToTop: false
   comments: false
   hidemeta: false
@@ -72,9 +72,9 @@ params:
     imageTitle: my image
     buttons:
       - name: Articles
-        url: posts
+        url: Articles
       - name: Categories
-        url: tags
+        url: Categories
 
   # home-info mode
   homeInfoParams:
@@ -98,7 +98,7 @@ params:
     hiddenInList: false # hide on list pages and home
     hiddenInSingle: false # hide on single page
 
-  # editPost:
+  # editarticle:
   #   URL: "https://github.com/<path_to_repo>/content"
   #   Text: "Suggest Changes" # edit text
   #   appendFilePath: true # to append file path to Edit link
@@ -119,9 +119,9 @@ menu:
       name: Categories
       url: /categories/
       weight: 10
-    - identifier: tags
+    - identifier: Categories
       name: Articles
-      url: /tags/
+      url: /Categories/
       weight: 20
     - identifier: search
       name: Recherche
