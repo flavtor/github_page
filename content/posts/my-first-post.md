@@ -1,5 +1,5 @@
 ---
-title: "My First Post 🚀"
+title: "Mon premier post 🚀"
 date: 2023-11-14T10:45:37+01:00
 # weight: 1
 # aliases: ["/first"]
@@ -11,7 +11,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "Join me on my journey through the world of software development."
+description: "Rejoignez mon quotidient dans le monde du devellopement"
 canonicalURL: "https://flavtor.github.io/hugo-blog/posts/my-first-post"
 disableHLJS: true # to disable highlightjs
 disableShare: false

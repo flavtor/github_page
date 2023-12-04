@@ -1,5 +1,5 @@
 ---
-title: "Hugo Get Started"
+title: "Débutez Hugo"
 date: 2023-11-25
 categories: ["Coding", "Coding Tools"]
 tags: ["Web", "Frontend", "Tutorial"]
@@ -9,7 +9,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "Make your first website with Hugo!"
+description: "Fait ton premier site web en hugo"
 canonicalURL: "https://flavtor.github.io/hugo-blog/posts/hugo-get-started"
 disableHLJS: true # to disable highlightjs
 disableShare: false
