@@ -1,6 +1,6 @@
 ---
 title: "Mon premier post 🚀"
-date: 2023-11-14T10:45:37+01:00
+date: 2023-12-04
 # weight: 1
 # aliases: ["/first"]
 categories: ["Software Development"]
