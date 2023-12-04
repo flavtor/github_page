@@ -119,13 +119,13 @@ menu:
       name: Categories
       url: /categories/
       weight: 10
-    - identifier: Categories
+    - identifier: Articles
       name: Articles
-      url: /Categories/
+      url: /articles/
       weight: 20
-    - identifier: search
+    - identifier: Recherche
       name: Recherche
-      url: /search/
+      url: /recherche/
       weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
