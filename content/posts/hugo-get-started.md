@@ -30,10 +30,6 @@ cover:
   hidden: true # only hide on current single page
 ---
 
-Bien sûr, voici la version traduite en français que tu pourrais copier-coller :
-
----
-
 # Démarrer avec Hugo : Créer votre premier site web
 
 Dans ce tutoriel, nous allons vous guider à travers le processus de configuration de Hugo et la création de votre premier site web.
