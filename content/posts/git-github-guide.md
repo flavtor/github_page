@@ -1,5 +1,5 @@
 ---
-title: "Understanding and Using Git and GitHub"
+title: "Comment utiliser github & git"
 date: 2023-11-23
 categories: ["Version Control", "Coding Tools"]
 tags: ["Git", "GitHub", "Tutorial"]
@@ -9,7 +9,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "A beginner's guide to understanding and using Git and GitHub."
+description: "Guide pour Git & Github"
 canonicalURL: "https://flavtor.github.io/hugo-blog/posts/git-github-guide"
 disableHLJS: true # to disable highlightjs
 disableShare: false
@@ -28,10 +28,6 @@ cover:
     # caption: "<text>" # display caption under cover
     relative: false # when using page bundles set this to true
     hidden: true # only hide on current single page
----
-
-Certainly! Here's a translation of the provided text into French:
-
 ---
 
 # Comprendre et Utiliser Git et GitHub
